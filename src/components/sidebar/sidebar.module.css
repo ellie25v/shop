@@ -1,0 +1,40 @@
+.sidebar{
+    height: 100vh;
+    width: 15%;
+    /* position: fixed; */
+    background-color: rgb(71, 62, 62);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.link,
+.activeLink{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.activeLink{
+    color: cornflowerblue;
+}
+span{
+    font-size: 30px;
+    color: tomato;
+    font-weight: 500;
+}
+.home {
+    width: 30px;
+    height: 30px;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.navWrapper {
+    display: flex;
+    flex-direction: column;
+}
